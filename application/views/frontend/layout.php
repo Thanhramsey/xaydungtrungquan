@@ -7,7 +7,7 @@
     <!-- Description -->
     <meta name="description" content="MegaOne is a highly creative, modern, visually stunning and Bootstrap responsive multipurpose studio and portfolio HTML5 template with ready home page demos.">
     <!-- Page Title -->
-    <title>Builder-Construction | MegaOne HTML5 Template</title>
+    <title>Công ty Trung Quân</title>
     <!-- Bundle -->
     <link href="public/vendor/css/bundle.min.css" rel="stylesheet">
     <!-- Plugin Css -->
@@ -117,15 +117,15 @@
            <!-- Content -->
            <div class="col-12 col-lg-6 d-flex align-items-center text-center text-lg-left">
                <div class="heading-area wow slideInLeft" data-wow-delay=".7s">
-                   <span class="sub-heading text-blue">Property / Builder / Architect</span>
-                   <h4 class="heading">Construction<span class="d-block">Builder.</span></h4>
-                   <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit lacus vel facilisis. </p>
-                   <a href="#about" class="scroll button"><i class="las la-angle-right"></i>Learn More</a>
+                   <span class="sub-heading text-blue">CÔNG TY TNHH MỘT THÀNH VIÊN</span>
+                   <h4 class="heading"><span class="d-block">TRUNG QUÂN</span>GIA LAI</h4>
+                   <!-- <p class="text">Lorem ipsum dolor sit amet, consectetur adipiscing elit lacus vel facilisis. </p> -->
+                   <a href="#about" class="scroll button"><i class="las la-angle-right"></i>Chi tiết</a>
                </div>
            </div>
            <div class="col-lg-6">
                <div class="image-banner wow slideInRight" data-wow-delay=".7s">
-                   <img src="public/builder-construction/images/banner-img.png" alt="">
+                   <img style="border-radius:20px"src="public/builder-construction/images/banner-img.png" alt="">
                </div>
            </div>
        </div>
@@ -148,14 +148,14 @@
          <div class="col-12">
              <div class="about-area">
                  <h4 class="heading-sub wow fadeInDown" data-wow-delay="1s">
-                     About Our Company
+                     Về công ty chúng tôi
                  </h4>
                  <h1 class="heading-about wow fadeInUp" data-wow-delay=".9s">
-                     Lorem ipsum dolor sit amet consectetur.
+				 	Công ty THHH MTV Trung Quân Gia Lai
                  </h1>
              </div>
              <div class="image-div">
-                 <img src="public/builder-construction/images/about-img.png" alt="image">
+                 <img style="border-radius:20px" src="public/builder-construction/images/about-img.png" alt="image">
              </div>
          </div>
     </div>
@@ -164,22 +164,43 @@
         <div class="col-12 col-lg-4 text-center wow slideInLeft" data-wow-delay=".5s">
             <div class="about-card">
                 <span>01.</span>
-                <h4 class="about-heading">Initial Design</h4>
-                <p class="text">Lorem ipsum dolor  amet, consectetur adipiscing elit augue diam, accumsan  ipsum dolor sit amet, consectetur adipiscing.</p>
+                <h4 class="about-heading">Tư vấn thiết kế</h4>
+                <p class="text">Tư vấn lắp đặt, thiết kế cho công trình theo yêu cầu của khách hàng.</p>
             </div>
         </div>
         <div class="col-12 col-lg-4 text-center wow slideInUp" data-wow-delay=".3s">
             <div class="about-card">
                 <span>02.</span>
-                <h4 class="about-heading">Build House</h4>
-                <p class="text">Lorem ipsum dolor  amet, consectetur adipiscing elit augue diam, accumsan  ipsum dolor sit amet, consectetur adipiscing.</p>
+                <h4 class="about-heading">Xây dựng công trình</h4>
+                <p class="text">Cung cấp đội ngũ thi công có chuyên môn và tay nghề tốt để xây dựng công trình. </p>
             </div>
         </div>
         <div class="col-12 col-lg-4 text-center wow slideInRight" data-wow-delay=".5s">
             <div class="about-card">
                 <span>03.</span>
-                <h4 class="about-heading">Completion</h4>
-                <p class="text">Lorem ipsum dolor  amet, consectetur adipiscing elit augue diam, accumsan  ipsum dolor sit amet, consectetur adipiscing.</p>
+                <h4 class="about-heading">Hoàn thiện</h4>
+                <p class="text">Hoàn thiện công trình, cam kết mang đến những công trình đạt chuẩn về vẻ ngoài đến chất lượng bên trong.</p>
+            </div>
+        </div>
+		<div class="col-12 col-lg-4 text-center wow slideInLeft" data-wow-delay=".7s">
+            <div class="about-card">
+                <span>04.</span>
+                <h4 class="about-heading">Tiến độ, trách nhiệm</h4>
+                <p class="text">Tiến độ đúng từng ngày. Chi phí xây dựng không vượt quá 5% so với dự toán. Nếu phát sinh chúng tôi cam kết chịu 100% chi phí này..</p>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 text-center wow slideInUp" data-wow-delay=".9s">
+            <div class="about-card">
+                <span>05.</span>
+                <h4 class="about-heading">Minh bạch</h4>
+                <p class="text"></p>100% tất cả các vật liệu xây dựng. Trong quá trình thi công chúng tôi luôn sử dụng những vật liệu xây dựng tốt nhất. </p>
+            </div>
+        </div>
+        <div class="col-12 col-lg-4 text-center wow slideInRight" data-wow-delay=".11s">
+            <div class="about-card">
+                <span>06.</span>
+                <h4 class="about-heading">Gía tốt</h4>
+                <p class="text">GIÁ TỐT NHẤT vì chúng tôi chủ động khâu sản xuất vật liệu. Đối với vật liệu phải mua ngoài, chúng tôi luôn chọn loại chất lượng.</p>
             </div>
         </div>
     </div>
@@ -195,11 +216,11 @@
         <div class="row align-items-center">
             <div class="col-12">
                     <div class="review-sub">
-                        People Love Us
+                        Phản hồi
                     </div>
 
                 <div class="review-heading">
-                    Our Happy Clients
+                    Khách hàng
                 </div>
             </div>
             <div class="col-md-12 col-lg-12  order-1 order-md-2">
@@ -209,15 +230,12 @@
                         <div class="review-content">
                 <div class="review-des">
                     <p>
-                        We have a number of different teams within our agency that specialise in different
-                        areas of business so you can be sure that you receive a generic service and although
-                        we boast years and years of service we can ensure you that is a good thing in this
-                        industry.
+						Tiến độ thi công luôn chuẩn, tốt, chất lượng luôn luôn đảm bảo, đảm bảo chất lượng đề ra, giám sát chặt chẽ, trách nhiệm!
                     </p>
                 </div>
                 <div class="reiview-user">
                     <p>
-                    John Smith - New York City
+	 					Anh Trung - Chưprông
                     </p>
                     <span class="d-inline-block test-star">
                             <i class="fas fa-star"></i>
@@ -232,15 +250,16 @@
                         <div class="review-content">
                             <div class="review-des">
                                 <p>
-                                    We have a number of different teams within our agency that specialise in different
-                                    areas of business so you can be sure that you receive a generic service and although
-                                    we boast years and years of service we can ensure you that is a good thing in this
-                                    industry.
+								Về cơ bản vật tư vật liệu đưa vào đảm bảo theo hợp đồng, rất là thích
+								thợ tay nghề tốt, trách nhiệm với công việc. Đảm bảo tiến độ thi công như ban đầu hai bên thỏa thuận với nhau.
+								Kỹ thuật khá hài lòng, bám sát công trình, lắng nghe phản hồi của khách hàng.
+								Tư vấn kịp thời, phù hợp.
+								Rất hài lòng.
                                 </p>
                             </div>
                             <div class="reiview-user">
                                 <p>
-                                    John Smith - New York City
+                                    Anh Thắng - Pleiku
                                 </p>
                                 <span class="d-inline-block test-star">
                             <i class="fas fa-star"></i>
@@ -263,7 +282,7 @@
                             </div>
                             <div class="reiview-user">
                                 <p>
-                                    John Smith - New York City
+                                    Anh Bình - Đức Cơ
                                 </p>
                                 <span class="d-inline-block test-star">
                             <i class="fas fa-star"></i>
@@ -480,22 +499,22 @@
         <div class="col-md-12 col-lg-6 wow slideInLeft" data-wow-delay=".4s">
             <div class="mapouter">
                 <div class="gmap_canvas ">
-                    <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3333.9674103770367!2d-111.89998968532109!3d33.31966746342612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzPCsDE5JzEwLjgiTiAxMTHCsDUzJzUyLjEiVw!5e0!3m2!1sen!2s!4v1573716071790!5m2!1sen!2s" width="600" height="410" style="border:0;"  allowfullscreen=""></iframe>
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.548299906573!2d107.85536891628333!3d13.745775274814752!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x316c2e27e8991f05%3A0x7c32ea9e69cedf8!2zxJBUNjYzLCBJYSBEcsSDbmcsIENoxrAgUHLDtG5nLCBHaWEgTGFpLCBWaeG7h3QgTmFt!5e0!3m2!1svi!2s!4v1660123331898!5m2!1svi!2s" width="600" height="410" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
 
         <div class=" col-lg-6  contact-details text-center text-lg-left wow slideInRight" data-wow-delay=".4s">
 
-                    <span class="contact-sub-heading">Lorem ipsum dolor sit amet consectetur</span>
-                    <h4 class="contact-heading">MegaOne Builder</h4>
-                    <p class="contact-address">123 Street New York City , United States Of America.</p>
+                    <span class="contact-sub-heading">Thông tin liên lạc</span>
+                    <h4 class="contact-heading">Công ty THH TRUNG QUÂN</h4>
+                    <p class="contact-address">Thôn Hợp Thắng, Xã Ia Drăng, Huyện Chư Prông, Tỉnh Gia Lai</p>
                     <ul class="contact-list">
-                        <li><span>Office Telephone:</span> 001 01085379709</li>
-                        <li><span>Mobile:</span> 001 63165370895</li>
-                        <li><span>Email: </span> admin@website.com</li>
-                        <li><span>Inquiries: </span> email@website.com</li>
-                        <li><span>Mon-Fri:</span> 9am to 6pm</li>
+						<li><span>Mã số thuế: </span>5900451607</li>
+                        <li><span>Số điện thoại: </span>0269790182</li>
+                        <li><span>Người đại diện: </span> Vũ Ngọc Ân</li>
+                        <li><span>Giấy phép kinh doanh: </span> 5900451607</li>
+                        <li><span>Mon-Fri: </span> 9am to 6pm</li>
                     </ul>
 
             </div>

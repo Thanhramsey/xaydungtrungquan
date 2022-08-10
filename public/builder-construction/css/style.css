@@ -606,14 +606,14 @@ header .nav-box-round .navbar-nav .nav-link:hover{
 .image-banner{
     width: 100%;
     position: relative;
-    top: 73px;
+    top: 35px;
 }
 
 .heading-area .sub-heading{
-    font-size: 16px;
+    font-size: 24px;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
 }
 
 .heading-area .heading{
