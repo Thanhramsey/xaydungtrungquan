@@ -1,264 +1,247 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <!-- Meta Tags -->
-    <meta charset="utf-8">
-    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
-    <!-- Author -->
-    <!-- <meta name="author" content="Themes Industry"> -->
-    <!-- description -->
-    <!-- <meta name="description" content="MegaOne is a highly creative, modern, visually stunning and Bootstrap responsive multipurpose studio and portfolio HTML5 template with 8 ready home page demos."> -->
-    <!-- keywords -->
-    <!-- <meta name="keywords" content="Creative, modern, clean, bootstrap responsive, html5, css3, portfolio, blog, studio, templates, multipurpose, one page, corporate, start-up, studio, branding, designer, freelancer, carousel, parallax, photography, studio, masonry, grid, faq"> -->
-    <!-- Page Title -->
-    <title>Sâm Ngọc Linh Hạnh Dung</title>
-    <!-- Favicon -->
-    <link href="<?php echo base_url() ?>/public/vendor/img/favicon.ico" rel="icon">
-    <!-- Bundle -->
-    <link href="<?php echo base_url() ?>/public/vendor/css/bundle.min.css" rel="stylesheet">
-    <!-- Plugin Css -->
-    <link href="<?php echo base_url() ?>/public/vendor/css/owl.carousel.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="<?php echo base_url() ?>/public/vendor/css/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="<?php echo base_url() ?>/public/vendor/css/swiper.min.css">
+	<meta name="viewport" content="width=device-width, initial-social=1">
+	<!-- Author -->
+	<meta name="author" content="Themes Industry">
+	<!-- Description -->
+	<meta name="description" content="MegaOne is a highly creative, modern, visually stunning and Bootstrap responsive multipurpose studio and portfolio HTML5 template with ready home page demos.">
+	<!-- Page Title -->
+	<title>Công ty Trung Quân</title>
+	<!-- Bundle -->
+	<link href="<?php echo base_url() ?>/public/vendor/css/bundle.min.css" rel="stylesheet">
+	<!-- Plugin Css -->
+	<link href="<?php echo base_url() ?>/public/vendor/css/LineIcons.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="<?php echo base_url() ?>/public/vendor/css/owl.carousel.min.css">
+	<link href="<?php echo base_url() ?>/public/vendor/css/jquery.fancybox.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="<?php echo base_url() ?>/public/vendor/css/wow.css">
+	<link rel="stylesheet" href="<?php echo base_url() ?>/public/vendor/css/cubeportfolio.min.css">
+	<link rel="stylesheet" href="<?php echo base_url() ?>/public/vendor/css/LineIcons.min.css">
 	<link rel="stylesheet" href="<?php echo base_url() ?>/public/assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php echo base_url() ?>/public/vendor/css/LineIcons.min.css">
-    <!-- Style Sheet -->
-    <link href="<?php echo base_url() ?>/public/coffee/css/line-awesome.min.css" rel="stylesheet">
-    <link href="<?php echo base_url() ?>/public/coffee/css/style.css" rel="stylesheet">
-    <link href="<?php echo base_url() ?>/public/coffee/css/custom.css" rel="stylesheet">
+	<!-- Style Sheet -->
+	<link href="<?php echo base_url() ?>/public/builder-construction/css/style.css" rel="stylesheet">
+	<link href="<?php echo base_url() ?>/public/builder-construction/css/custom.css" rel="stylesheet">
+	<link href="<?php echo base_url() ?>/public/builder-construction/css/line-awesome.min.css" rel="stylesheet">
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="90">
+<body data-spy="scroll" data-target="#megaone" data-offset="90">
 
-<!-- Start Loader -->
-<div class="loader-bg">
-    <div class="smoke-loader">
-        <div class="smoke-wave">
-            <div class="smoke1"></div>
-            <div class="smoke2"></div>
-            <div class="smoke3"></div>
-        </div>
-        <div class="coffee-cup">
-            <?xml version="1.0" encoding="utf-8"?>
-            <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 512 360" xml:space="preserve" height="80" style="fill: #ffffff;">
-            <g><g>
-            <path d="M450.6,72.6c-1.2,17-5.9,50-5.9,50c38.5,51.2-2.3,103.2-34.5,114c0,0-16.6,32.4-26.4,46.9C449,280.1,501,229.1,501,166.8
-                C501,128.5,481.4,94.1,450.6,72.6L450.6,72.6z"/>
-            <path d="M332.6,308.2h-24.1c61.7-52.8,102.7-155,102.7-274.9c0-11.3-9.1-20.4-20.4-20.4H31.4C20.1,12.9,11,22,11,33.3
-                c0,120,41,222.1,102.7,274.9H89.5c-11.3,0-20.4,9.1-20.4,20.4S78.2,349,89.5,349h243.1c11.3,0,20.4-9.1,20.4-20.4
-                S343.9,308.2,332.6,308.2L332.6,308.2z"/></g></g>
-	        </svg>
-
-        </div>
-    </div>
-</div>
-<!-- End Loader -->
-
-<!-- Start Header -->
-<header id="home" class="cursor-light">
-    <div class="inner-header nav-icon">
-        <div class="main-navigation" style="background: #592b1c;">
-            <div class="container">
-                <div class="row">
-                    <div class="col-4 col-lg-2">
-                        <a class="navbar-brand link"  href="<?php echo base_url() ?>trang-chu">
-                            <img src="<?php echo base_url() ?>/public/coffee/images/logo.png" alt="logo">
-                        </a>
-                    </div>
-                    <div class="col-8 col-lg-10 simple-navbar d-flex align-items-center justify-content-end">
-                        <nav class="navbar navbar-expand-lg">
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                                <div class="navbar-nav ml-auto d-flex align-items-center">
-                                    <a class="nav-link home active link " href="<?php echo base_url() ?>trang-chu">Trang chủ</a>
-									<a class="nav-link home active link " href="<?php echo base_url() ?>sanpham">Sản phẩm</a>
-                                    <a class="nav-link link" href="<?php echo base_url() ?>tin-tuc">Tin tức</a>
-                                    <span class="menu-line link"><i aria-hidden="true" class="fa fa-angle-down"></i></span>
-                                </div>
-                            </div>
-                        </nav>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--toggle btn-->
-        <a href="javascript:void(0)" class="sidemenu_btn link" id="sidemenu_toggle">
-            <span></span>
-            <span></span>
-            <span></span>
-        </a>
-    </div>
-    <!--Side Nav-->
-    <div class="side-menu hidden side-menu-opacity">
-        <div class="bg-overlay"></div>
-        <div class="inner-wrapper">
-            <span class="btn-close" id="btn_sideNavClose"><i></i><i></i></span>
-            <div class="container">
-                <div class="row w-100 side-menu-inner-content">
-                    <div class="col-12 d-flex justify-content-center align-items-center text-center">
-                        <a href="index-coffee.html" class="navbar-brand"><img src="<?php echo base_url() ?>/public/coffee/images/logo.png" alt="logo"></a>
-                    </div>
-                    <div class="col-12 col-lg-8 text-center text-lg-left">
-                        <nav class="side-nav w-100">
-                            <ul class="navbar-nav">
-                                <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo base_url() ?>trang-chu">Trang chủ</a>
-                                </li>
-								li class="nav-item">
-                                    <a class="nav-link" href="<?php echo base_url() ?>sanpham">Sản phẩm</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="<?php echo base_url() ?>tin-tuc">Tin tức</a>
-                                </li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <div class="col-12 col-lg-4 d-flex align-items-center text-center text-lg-left">
-                        <div class="side-footer text-white w-100">
-                            <div class="menu-company-details">
-                                <span>761 Quang Trung, TT.Chư Ty,Huyện Đức Cơ</span>
-                                <span>032 742 7268</span>
-                            </div>
-                            <ul class="social-icons-simple">
-                                <li><a class="facebook-text-hvr" target="_blank" href="https://www.facebook.com/H%E1%BA%A1nh-Dung-%C4%90%E1%BA%A7u-M%E1%BB%91i-S%C3%A2m-Ng%E1%BB%8Dc-Linh-110390721092653/?ref=pages_you_manage&gidzl=CnnOKg8r1Gut1rjTfYi42J81Mrsx9GG1U0aDKBuZK0Kh30zJltO2KdbTL07gT09JVGbL066d76zbfJ040G"><i class="fab fa-facebook-f"></i> </a> </li>
-                                <li><a class="twitter-text-hvr" href="javascript:void(0)"><i class="fab fa-twitter"></i> </a> </li>
-                                <li><a class="youtube-text-hvr" href="javascript:void(0)"><i class="fab fa-youtube"></i> </a> </li>
-                                <li><a class="instagram-text-hvr" href="javascript:void(0)"><i class="fab fa-instagram"></i> </a> </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <a id="close_side_menu" href="javascript:void(0);"></a>
-
-    <!--Get Started Model Popup-->
-</header>
-<!-- End Header -->
-
-<!-- Start Slider Section -->
-<section class="menu portfolio-three pb-0" id="menu">
-    <div class="container">
-        <div class="row">
-            <div class="col-12 col-md-10 col-lg-8 offset-md-1 offset-lg-2 text-center wow fadeIn" style="visibility: visible; animation-name: fadeIn;">
-                <div class="d-inline-block">
-                    <div class="mb-4"><img src="<?php echo base_url() ?>/public/coffee/images/gallery-border.png" alt="Border"></div>
-                    <!-- <h6 class="sub-title alt-font text-sec">Top quality coffee</h6> -->
-                    <h1 class="title main-font text-main my-5" ><strong>Sản phẩm của chúng tôi</strong></h1>
-
-                </div>
-            </div>
-        </div>
-    </div>
-        <div class="container-fluid">
-			<div class="row m-0">
-				<div class = "text-center pull-right">
-                    <ul class ="pagination">
-                      <?php echo $strphantrang; ?>
-                    </ul>
-                </div>
+	<!-- Preloader -->
+	<div class="preloader">
+		<div class="center">
+			<div class="loader">
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
+				<div></div>
 			</div>
-            <div class="row m-0">
-				<?php foreach ($list as $sp) :?>
+		</div>
+	</div>
+	<!-- Preloader End -->
 
-					<div class="col-md-3 items graphic">
-						<div class="item-img">
-							<a href="<?php echo base_url() ?>ttsanpham/<?php echo $sp['id']; ?>">
-								<img src="<?php echo base_url() ?>/public/assets/images/<?php echo $sp['img']; ?>" alt="image" style="height:400px">
-								<div class="item-img-overlay valign">
-									<div class="overlay-info text-center">
-										<span class="image-hover mb-3"><i class="lni lni-gallery"></i></span>
-										<h5 class="text-white"><?php echo $sp['spname']; ?></h5>
-										<?php if($sp['price']==0): ?>
-											<p class="text-white">Giá: Liên Hệ !</p>
-										<?php else : ?>
-											<p class="text-white">Giá: <?php echo(number_format($sp['price'])); ?> VNĐ</p>
-										<?php endif; ?>
+	<!-- Start Header -->
+	<header id="home">
+		<!--Navigation-->
+		<nav class="navbar navbar-top-default navbar-expand-lg  nav-box-round navbar-simple nav-line" style="background:#ffcd04">
+			<div class="container">
+				<a href="<?php echo base_url() ?>trang-chu" title="Logo" class="logo">
+					<!--Logo Default-->
+					<img src="<?php echo base_url() ?>/public/builder-construction/images/logo.png" alt="logo" class="logo-dark">
+				</a>
 
-									</div>
-								</div>
-							</a>
-						</div>
-						<div class=" mt-3 mb-3 text-center">
-							<a href="<?php echo base_url() ?>ttsanpham/<?php echo $sp['id']; ?>"> <strong>Chi tiết </strong></a>
-						</div>
+				<!--Nav Links-->
+				<div class="collapse navbar-collapse" id="megaone">
+					<div class="navbar-nav ml-auto">
+					<a class="nav-link active" href="<?php echo base_url() ?>trang-chu">Trang chủ<span></span></a>
+						<a class="nav-link" href="<?php echo base_url() ?>sanpham">Dự án<span></span></a>
+						<a class="nav-link" href="<?php echo base_url() ?>tin-tuc">Tin tức<span></span></a>
+						<a class="nav-link scroll " href="#contact">Liên hệ<span></span></a>
 					</div>
-				<!-- </div> -->
-				<?php endforeach; ?>
-                <!-- Menu Item 1 -->
-            </div>
+				</div>
+				<!--Side Menu Button-->
+				<a href="javascript:void(0)" class="sidemenu_btn" id="sidemenu_toggle">
+					<span></span>
+					<span></span>
+					<span></span>
+				</a>
+			</div>
+		</nav>
+		<!--Side Nav-->
+		<div class="side-menu hidden">
+			<div class="inner-wrapper">
+				<span class="btn-close" id="btn_sideNavClose"><i></i><i></i></span>
+				<nav class="side-nav w-100">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link" href="<?php echo base_url() ?>trang-chu">Trang chủ</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="<?php echo base_url() ?>sanpham">Dự án</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="<?php echo base_url() ?>tin-tuc">Tin tức</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link scroll" href="#contact">Liên hệ</a>
+						</li>
+					</ul>
+				</nav>
 
-        </div>
-</section>
-<!-- End Contact Section -->
+				<div class="side-footer w-100">
+					<ul class="social-icons-simple">
+						<li><a class="facebook-text-hvr" href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a></li>
+						<li><a class="twitter-text-hvr" href="javascript:void(0)"><i class="fab fa-twitter"></i></a></li>
+						<li><a class="linkedin-text-hvr" href="javascript:void(0)"><i class="fab fa-linkedin-in"></i></a></li>
+						<li><a class="instagram-text-hvr" href="javascript:void(0)"><i class="fab fa-instagram"></i></a></li>
+					</ul>
+					<p class="">&copy; 2022 Công ty TNHH Trung Quân</p>
+				</div>
+			</div>
+		</div>
+		<a id="close_side_menu" href="javascript:void(0);"></a>
+		<!-- End side menu -->
+	</header>
+	<!-- End Header -->
 
-<!-- Start Footer Section -->
-<footer class="footer">
-    <div class="container">
-        <div class="row align-items-center">
-            <!--Social-->
-            <div class="col-md-3 text-center">
-                <div class="footer-social">
-                    <h4 class="wow fadeInUp" data-wow-delay="0.2s">Địa chỉ</h4>
-					<p>761 Quang Trung<br> Thị trấn Chư Ty<br>Huyện Đức Cơ</p>
-                </div>
-                <!--Text-->
+	<section class="main standalone mt-5" id="main">
+		<!--content-->
+		<div class="blog-content">
+			<div class="container">
+				<div class="row no-gutters">
+					<div class="col-12">
+						<!-- START HEADING SECTION -->
+						<div>
+							<div class="row no-gutters">
+								<div class="col-12 col-md-12 offset-md-1 col-lg-8 offset-lg-2  text-center wow slideInUp" data-wow-duration="2s" style="padding:15px">
+									<h1 class="heading text-orang" style="color:#f46110">Những dự án của công ty</h1>
+								</div>
+							</div>
+						</div>
+						<div class="row m-0">
+							<div class="text-center pull-right">
+								<ul class="pagination">
+									<?php echo $strphantrang; ?>
+								</ul>
+							</div>
+						</div>
+						<div class="standalone-area">
+							<?php foreach ($list as $sp) : ?>
+								<?php if ($sp['id'] % 2 == 0) : ?>
+									<div class="row standalone-row align-items-center no-gutters" style="margin-bottom:0;padding:0px 75px;height:450px">
+										<div class="col-lg-6" style="height:100%">
+											<a href="<?php echo base_url() ?>ttsanpham/<?php echo $sp['id']; ?>">
+												<div class="blog-image wow hover-effect fadeInLeft image" style="height:100%">
+													<img style="border-radius:20px" src="<?php echo base_url() ?>/public/assets/images/<?php echo $sp['img']; ?>">
+												</div>
+											</a>
+										</div>
+										<div class="col-lg-6 stand-img-des">
+											<div class="d-inline-block">
+												<h2 style="color:#f46110 !important" class="heading-text text-orang sub-heading "><strong><?php echo $sp['spname']; ?></strong></h2>
+												<a href="<?php echo base_url() ?>ttsanpham/<?php echo $sp['id']; ?>"> <strong>Chi tiết </strong></a>
+											</div>
+										</div>
+									</div>
+								<?php else : ?>
+									<div class="row standalone-row align-items-center no-gutters" style="margin-bottom:0;padding:0px 75px;height:450px">
+										<div class="col-lg-6 order-lg-2" style="height:100%">
+											<a href="<?php echo base_url() ?>ttsanpham/<?php echo $sp['id']; ?>">
+												<div class="blog-image wow hover-effect fadeInRight text-center text-lg-right image" style="height:100%">
+													<img style="border-radius:20px" src="<?php echo base_url() ?>/public/assets/images/<?php echo $sp['img']; ?>">
+												</div>
+											</a>
+										</div>
+										<div class="col-lg-6 stand-img-des">
+											<div class="d-inline-block">
+												<h2 style="color:#f46110 !important" class="heading-text text-orang"><strong><?php echo $sp['spname']; ?></strong></h2>
+												<a href="<?php echo base_url() ?>ttsanpham/<?php echo $sp['id']; ?>"> <strong>Chi tiết </strong></a>
+											</div>
+										</div>
+									</div>
+								<?php endif; ?>
+								<!-- First-Row -->
 
-            </div>
 
-			<div class="col-md-3 text-center">
-                <div class="footer-social">
-                    <h4 class="wow fadeInUp" data-wow-delay="0.2s">Liên hệ</h4>
-					<p>032 742 7268</p>
-                </div>
-                <!--Text-->
+							<?php endforeach; ?>
+						</div>
+						<!-- END HEADING SECTION -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-            </div>
 
-			<div class="col-md-3 text-center">
-                <div class="footer-social">
-                    <h4 class="wow fadeInUp" data-wow-delay="0.2s">Thời gian phục vụ</h4>
-					<div>
-                                        <strong>Monday - Sunday</strong>
-                                        <p>9:00 AM - 5:00 PM</p>
-                                   </div>
-                </div>
-                <!--Text-->
+	<!--Footer Start-->
+	<footer class="footer-sec text-center" id="contact">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="footer-social">
+						<ul class="list-unstyled">
+							<li><a class="wow fadeInUp" href="javascript:void(0);"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+							<li><a class="wow fadeInDown" href="javascript:void(0);"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
+							<li><a class="wow fadeInUp" href="javascript:void(0);"><i class="fab fa-google-plus-g" aria-hidden="true"></i></a></li>
+							<li><a class="wow fadeInDown" href="javascript:void(0);"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
+							<li><a class="wow fadeInUp" href="javascript:void(0);"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+							<li><a class="wow fadeInDown" href="javascript:void(0);"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+					<p class="company-about fadeIn">© 2021 MegaOne. Made With Love By <a href="javascript:void(0);">Themesindustry</a></p>
+				</div>
+				<div class=" col-lg-4  contact-details text-center text-lg-left wow slideInRight" data-wow-delay=".4s">
 
-            </div>
+					<span class="contact-sub-heading">Thông tin liên lạc</span>
+					<h4 class="contact-heading">Công ty THHH TRUNG QUÂN</h4>
+					<p class="contact-address">Thôn Hợp Thắng, Xã Ia Drăng, Huyện Chư Prông, Tỉnh Gia Lai</p>
+					<ul class="contact-list">
+						<li><span>Mã số thuế: </span>5900451607</li>
+						<li><span>Số điện thoại: </span>0269790182</li>
+						<li><span>Người đại diện: </span> Vũ Ngọc Ân</li>
+						<li><span>Giấy phép kinh doanh: </span> 5900451607</li>
+						<li><span>Mon-Fri: </span> 9am to 6pm</li>
+					</ul>
 
-			<div class="col-md-3 text-center">
-                <div class="footer-social">
-				<ul class="list-unstyled social-icons social-icons-simple">
-                        <li><a class="social-icon wow fadeInUp" target="_blank" href="https://www.facebook.com/H%E1%BA%A1nh-Dung-%C4%90%E1%BA%A7u-M%E1%BB%91i-S%C3%A2m-Ng%E1%BB%8Dc-Linh-110390721092653/?ref=pages_you_manage&gidzl=CnnOKg8r1Gut1rjTfYi42J81Mrsx9GG1U0aDKBuZK0Kh30zJltO2KdbTL07gT09JVGbL066d76zbfJ040G"><i class="fab fa-facebook-f" aria-hidden="true"></i> </a> </li>
-                        <li><a class="social-icon wow fadeInDown" href="javascript:void(0)"><i class="fab fa-twitter" aria-hidden="true"></i> </a> </li>
-                        <li><a class="social-icon wow fadeInUp" href="javascript:void(0)"><i class="fab fa-google-plus-g" aria-hidden="true"></i> </a> </li>
-                        <li><a class="social-icon wow fadeInUp" href="javascript:void(0)"><i class="fab fa-instagram" aria-hidden="true"></i> </a> </li>
-                    </ul>
-                </div>
-                <!--Text-->
+				</div>
+				<div class=" col-lg-4 contact-details text-center text-lg-left wow slideInRight" data-wow-delay=".4s">
 
-            </div>
-        </div>
-    </div>
-</footer>
-<!-- End Footer Section -->
+					<span class="contact-sub-heading">Thông tin liên lạc</span>
+					<h4 class="contact-heading">Công ty THHH TRUNG QUÂN</h4>
+					<p class="contact-address">Thôn Hợp Thắng, Xã Ia Drăng, Huyện Chư Prông, Tỉnh Gia Lai</p>
+					<ul class="contact-list">
+						<li><span>Mã số thuế: </span>5900451607</li>
+						<li><span>Số điện thoại: </span>0269790182</li>
+						<li><span>Người đại diện: </span> Vũ Ngọc Ân</li>
+						<li><span>Giấy phép kinh doanh: </span> 5900451607</li>
+						<li><span>Mon-Fri: </span> 9am to 6pm</li>
+					</ul>
 
-<!-- JavaScript -->
-<script src="<?php echo base_url() ?>/public/vendor/js/bundle.min.js"></script>
-<!-- Plugin Js -->
-<script src="<?php echo base_url() ?>/public/vendor/js/jquery.appear.js"></script>
-<script src="<?php echo base_url() ?>/public/vendor/js/owl.carousel.min.js"></script>
-<script src="<?php echo base_url() ?>/public/vendor/js/wow.min.js"></script>
-<script src="<?php echo base_url() ?>/public/vendor/js/parallaxie.min.js"></script>
-<script src="<?php echo base_url() ?>/public/vendor/js/jquery.fancybox.min.js"></script>
+				</div>
+			</div>
+		</div>
+	</footer>
+	<!--Footer End-->
 
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB4fusEY9kSwNHgtK8KOgyoTsyP5Tb2NXo"></script>
-<script src="<?php echo base_url() ?>/public/coffee/js/map.js"></script>
+	<!--START SCROLL TOP-->
+	<div class="go-top"><i class="fas fa-angle-up"></i><i class="fas fa-angle-up"></i></div>
+	<!--END SCROLL TOP-->
 
-<!-- CUSTOM JS -->
-<script src="<?php echo base_url() ?>/public/vendor/js/contact_us.js"></script>
-<script src="<?php echo base_url() ?>/public/vendor/js/swiper.min.js"></script>
-<script src="<?php echo base_url() ?>/public/coffee/js/script.js"></script>
+	<!-- JavaScript -->
+	<script src="<?php echo base_url() ?>/public/vendor/js/bundle.min.js"></script>
+	<!-- Plugin Js -->
+	<script src="<?php echo base_url() ?>/public/vendor/js/wow.min.js"></script>
+	<script src="<?php echo base_url() ?>/public/vendor/js/owl.carousel.min.js"></script>
+	<script src="<?php echo base_url() ?>/public/vendor/js/jquery.cubeportfolio.min.js"></script>
+	<script src="<?php echo base_url() ?>/public/vendor/js/jquery.fancybox.min.js"></script>
+	<!-- custom script -->
+	<script src="<?php echo base_url() ?>/public/vendor/js/contact_us.js"></script>
+	<script src="<?php echo base_url() ?>/public/builder-construction/js/script.js"></script>
 </body>
+
 </html>

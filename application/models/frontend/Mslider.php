@@ -19,7 +19,7 @@ class Mslider extends CI_Model {
             $this->db->where('status', 1);
             $this->db->where('trash', 1);
 			$this->db->order_by('id', 'desc');
-            $query = $this->db->get($this->table, 9);
+            $query = $this->db->get($this->table, 4);
             return $query->result_array();
     }
 

@@ -20,7 +20,7 @@ class Trangchu extends CI_Controller {
         $this->data['title']='Nhân Mobile - Điện thoại, Laptop, Link kiện chính hãng';
 		$this->data['listmenu']= $listmenu;
 		$this->data['listquan']= $listquan;
-		$this->data['tintuc'] = $this->Mcontent->content_list_all();
+		$this->data['tintuc'] = $this->Mcontent->content_list_3();
         $this->data['view']='index';
 		$this->load->view('frontend/layout',$this->data);
 	}
