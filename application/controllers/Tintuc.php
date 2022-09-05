@@ -16,11 +16,12 @@ class Tintuc extends CI_Controller {
         $aurl= explode('/',uri_string());
 		$catlink=$aurl[0];
 		$this->load->library('phantrang');
-		$limit=10;
+		$limit=5;
 		$current=$this->phantrang->PageCurrent();
 		$first=$this->phantrang->PageFirst($limit, $current);
 		$total=$this->Mcontent->content_count();
-		$this->data['strphantrang']=$this->phantrang->PagePer($total, $current, $limit, $url='tin-tuc');
+		$a = base_url()."tin-tuc";
+		$this->data['strphantrang']=$this->phantrang->PagePer($total, $current, $limit, $url=$a);
         $this->data['list']=$this->Mcontent->content_list_home($limit,$first);
         $this->data['title']='TMĐT - Tin tức';
 		$this->data['view']='index';
@@ -40,7 +41,7 @@ class Tintuc extends CI_Controller {
         $aurl= explode('/',uri_string());
 		$catlink=$aurl[0];
 		$this->load->library('phantrang');
-		$limit=5;
+		$limit=6;
 		$current=$this->phantrang->PageCurrent();
 		$first=$this->phantrang->PageFirst($limit, $current);
 		$total=$this->Mslider->sp_count();

@@ -323,12 +323,12 @@
 					</div>
 					<!-- Filters -->
 					<div class="col-md-12 pt-4 pt-md-5">
-						<div id="js-filters-mosaic" class="cbp-l-filters-button wow fadeInUp text-center text-lg-left" data-wow-delay="350ms">
+						<!-- <div id="js-filters-mosaic" class="cbp-l-filters-button wow fadeInUp text-center text-lg-left" data-wow-delay="350ms">
 							<div data-filter="*" class="cbp-filter-item-active cbp-filter-item">All Projects</div>
 							<div data-filter=".web-0" class="cbp-filter-item">Type 1</div>
 							<div data-filter=".web-1" class="cbp-filter-item">Type 2</div>
 							<div data-filter=".web-2" class="cbp-filter-item">Type 3</div>
-						</div>
+						</div> -->
 						<div id="js-grid-mosaic" class="cbp cbp-l-grid-mosaic">
 
 							<?php foreach ($listmenu as $sp) : ?>
@@ -386,7 +386,7 @@
 						<h4 class="release-des">
 							Tin tức về công ty của chúng tôi
 						</h4>
-						<a href="public/builder-construction/standalone.html" class="btn pink-and-orange-btn rounded-pill release_btn">Xem thêm</a>
+						<a  href="tin-tuc"  class="btn pink-and-orange-btn rounded-pill release_btn">Xem thêm</a>
 
 					</div>
 				</div>
@@ -459,24 +459,23 @@
 	<section class="bg-black contact-us-sec" id="contactus">
 		<div class="container">
 			<div class="row">
-				<div class="col-12 col-md-3 text-center">
-					<div class="user-img"><a href="#home"><img src="public/builder-construction/images/contact-img.png" alt="img"></a></div>
-				</div>
-				<div class="col-12 col-md-9">
+				<div class="col-12 col-md-12">
 					<div class="row">
-						<div class="col-12" id="result"></div>
+						<div class="col-12" id="result">
+						<h6 class="text-success" style="display:none">Thông tin của bạn đã được lưu lại , chúng tôi sẽ liên lạc lại với bạn sớm nhất.</h6>
+						</div>
 						<div class="col-12 col-md-6">
 							<form class="row contact-form row-padding" id="contact-form-data">
 								<div class="col-12">
-									<input type="text" name="userName" placeholder="Name" class="form-control">
-									<input type="text" name="userPhone" placeholder="Contact No" class="form-control">
-									<input type="email" name="userEmail" placeholder="Email" class="form-control">
+									<input type="text" id="name" name="userName" placeholder="Tên" class="form-control">
+									<input type="text" id="phone" name="userPhone" placeholder="Số điện thoại" class="form-control">
+									<input type="email" id="email" name="userEmail" placeholder="Email" class="form-control">
 								</div>
 							</form>
 						</div>
 						<div class="col-12 col-md-6 contact-form">
-							<textarea class="form-control" name="userMessage" rows="6" placeholder="Type Your Message Here"></textarea>
-							<a href="javascript:void(0);" class="btn btn-medium btn-rounded pink-and-yellow-1-btn rounded-pill w-100 contact_btn main-font">Lets Get In Touch</a>
+							<textarea class="form-control" id="description" name="userMessage" rows="6" placeholder="Để lại lời nhắn..."></textarea>
+							<button type="button" onclick="saveLienHe()" class="btn btn-medium btn-rounded pink-and-yellow-1-btn rounded-pill w-100 main-font contact_btn_1" id="cf-submit" name="submit"><i class="fa fa-spinner fa-spin mr-2 d-none" aria-hidden="true"></i> Gửi</button>
 						</div>
 					</div>
 				</div>
@@ -493,34 +492,14 @@
 					<div class="footer-social">
 						<ul class="list-unstyled">
 							<li><a class="wow fadeInUp" href="javascript:void(0);"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-							<li><a class="wow fadeInDown" href="javascript:void(0);"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
 							<li><a class="wow fadeInUp" href="javascript:void(0);"><i class="fab fa-google-plus-g" aria-hidden="true"></i></a></li>
-							<li><a class="wow fadeInDown" href="javascript:void(0);"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
 							<li><a class="wow fadeInUp" href="javascript:void(0);"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
 							<li><a class="wow fadeInDown" href="javascript:void(0);"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
 						</ul>
 					</div>
-					<p class="company-about fadeIn">© 2021 MegaOne. Made With Love By <a href="javascript:void(0);">Themesindustry</a></p>
-				</div>
-				<div class=" col-lg-4  contact-details text-center text-lg-left wow slideInRight" data-wow-delay=".4s">
-
-					<span class="contact-sub-heading">Thông tin liên lạc</span>
-					<h4 class="contact-heading">Công ty THHH TRUNG QUÂN</h4>
-					<p class="contact-address">Thôn Hợp Thắng, Xã Ia Drăng, Huyện Chư Prông, Tỉnh Gia Lai</p>
-					<ul class="contact-list">
-						<li><span>Mã số thuế: </span>5900451607</li>
-						<li><span>Số điện thoại: </span>0269790182</li>
-						<li><span>Người đại diện: </span> Vũ Ngọc Ân</li>
-						<li><span>Giấy phép kinh doanh: </span> 5900451607</li>
-						<li><span>Mon-Fri: </span> 9am to 6pm</li>
-					</ul>
-
 				</div>
 				<div class=" col-lg-4 contact-details text-center text-lg-left wow slideInRight" data-wow-delay=".4s">
-
-					<span class="contact-sub-heading">Thông tin liên lạc</span>
-					<h4 class="contact-heading">Công ty THHH TRUNG QUÂN</h4>
-					<p class="contact-address">Thôn Hợp Thắng, Xã Ia Drăng, Huyện Chư Prông, Tỉnh Gia Lai</p>
+					<span class="contact-sub-heading"><strong>Thông tin liên lạc</strong></span>
 					<ul class="contact-list">
 						<li><span>Mã số thuế: </span>5900451607</li>
 						<li><span>Số điện thoại: </span>0269790182</li>
@@ -528,7 +507,10 @@
 						<li><span>Giấy phép kinh doanh: </span> 5900451607</li>
 						<li><span>Mon-Fri: </span> 9am to 6pm</li>
 					</ul>
-
+				</div>
+				<div class=" col-lg-4  contact-details text-center text-lg-left wow slideInRight" data-wow-delay=".4s">
+					<h4 class="contact-heading">Công ty THHH TRUNG QUÂN</h4>
+					<p class="contact-address">Thôn Hợp Thắng, Xã Ia Drăng, Huyện Chư Prông, Tỉnh Gia Lai</p>
 				</div>
 			</div>
 		</div>
@@ -549,6 +531,49 @@
 	<!-- custom script -->
 	<script src="public/vendor/js/contact_us.js"></script>
 	<script src="public/builder-construction/js/script.js"></script>
+	<script>
+		function saveLienHe(){
+			var strurl = "<?php echo base_url(); ?>" + 'lienhe/insertCmt';
+			var name = $("#name").val();
+			var email = $("#email").val();
+			var phone = $("#phone").val();
+			var description = $("#description").val();
+			$(".contact_btn_1 i").removeClass('d-none');
+			var validate = false;
+			if (name === "" ) {
+				$("#name").focus();
+			} else if (phone == "") {
+				$("#phone").focus();
+			}else if (description == "") {
+				$("#description").focus();
+			}else{
+				validate = true;
+			}
+			if (validate) {
+				jQuery.ajax({
+					url: strurl,
+					type: 'POST',
+					dataType: 'json',
+					data: {
+						name:name,
+						phone:phone,
+						email:email,
+						description:description
+					},
+					success: function(data) {
+						// window.location.reload(true);
+						$(".text-success").show();
+						$("#name").val("");
+						$("#phone").val("");
+						$("#email").val("");
+						$("#description").val("");
+						$(".contact_btn_1 i").addClass('d-none');
+						setTimeout(function() { $(".text-success").hide(); }, 3000);
+					}
+				});
+			}
+		}
+	</script>
 </body>
 
 </html>

@@ -60,7 +60,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-4 col-lg-2">
-                        <a class="navbar-brand link scroll"  href="<?php echo base_url() ?>trang-chu">
+                        <a class="navbar-brand link"  href="<?php echo base_url() ?>trang-chu">
                             <img src="../public/coffee/images/logo.png" alt="logo">
                         </a>
                     </div>
@@ -68,9 +68,9 @@
                         <nav class="navbar navbar-expand-lg">
                             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                                 <div class="navbar-nav ml-auto d-flex align-items-center">
-                                    <a class="nav-link home active link " href="<?php echo base_url() ?>trang-chu">Trang chủ</a>
-									<a class="nav-link home active link " href="<?php echo base_url() ?>sanpham">Sản phẩm</a>
-                                    <a class="nav-link link" href="<?php echo base_url() ?>tin-tuc">Tin tức</a>
+                                    <a class="nav-link home link " href="<?php echo base_url() ?>trang-chu">Trang chủ</a>
+									<a class="nav-link link " href="<?php echo base_url() ?>sanpham">Sản phẩm</a>
+                                    <a class="nav-link link active" href="<?php echo base_url() ?>tin-tuc">Tin tức</a>
                                     <span class="menu-line link"><i aria-hidden="true" class="fa fa-angle-down"></i></span>
                                 </div>
                             </div>
@@ -94,7 +94,7 @@
             <div class="container">
                 <div class="row w-100 side-menu-inner-content">
                     <div class="col-12 d-flex justify-content-center align-items-center text-center">
-                        <a href="<?php echo base_url() ?>trang-chu" class="navbar-brand"><img src="../public/coffee/images/logo.png" alt="logo"></a>
+                        <a href="index-coffee.html" class="navbar-brand"><img src="../public/coffee/images/logo.png" alt="logo"></a>
                     </div>
                     <div class="col-12 col-lg-8 text-center text-lg-left">
                         <nav class="side-nav w-100">
@@ -137,82 +137,24 @@
 
 <!-- Start Slider Section -->
 <section id="content">
-		<div class="container" style="margin-top:50px">
-			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-					<a href="<?php echo base_url() ?>sanpham" class="btn button btn-small btn-rounded mb-1 section-btn">Trờ về</a>
-			</div>
+		<div class="container" style="margin-top:50px; padding: 20px ; border: 1px solid #ddd">
 			<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 product-content" id="list-content">
 				<div class="product-wrap" id="info-content">
 					<div class="content-ct">
 						<div class="fs-ne2-it clearfix" style="padding-top: 5px">
 							<div class="fs-ne2-it clearfix">
 								<div class="entry-title">
-									<h2><strong>Thông tin sản phẩm</strong></h2>
+									<h2><?php echo $row['title']; ?></h2>
 								</div>
+								<ul class="entry-meta clearfix">
+									<li><i class="fa fa-calendar" style="margin-right: 5px"></i><?php echo $row['created']; ?></li>
+								</ul>
 							</div>
-							<div class="row">
-								<div class="col-md-4  wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s" >
-									<div class="item-img">
-										<a href="<?php echo base_url() ?>/public/assets/images/<?php echo $row['img']; ?>" data-fancybox="images">
-											<img src="<?php echo base_url() ?>/public/assets/images/<?php echo $row['img']; ?>" alt="image" style="height:100%;border-radius:20px">
-										</a>
-									</div>
-								</div>
-
-								<div class="col-12 col-md-12 text-center wow slideInUp" data-wow-delay=".3s">
-									<div class="about-card">
-										<h1><?php echo $row['name'] ?></h1>
-									</div>
-								</div>
-
-								<div class="col-12 col-lg-4 text-center wow slideInUp" data-wow-delay=".3s">
-											<p><b>Giá bán: </b>
-												<?php if($row['price']==0): ?>
-													<span style="color:red;font-size:20px"><strong>Liên hệ!</strong></span>
-												<?php else : ?>
-													<span style="color:red;font-size:20px"><strong><?php echo(number_format($row['price'])); ?> vn₫</strong></span>
-												<?php endif; ?>
-											</p>
-								</div>
-
-								<div class="col-12 col-md-12 text-center wow slideInUp" data-wow-delay=".3s">
-									<div class="about-card">
-										<h1><?php echo $row['detail'] ?></h1>
-									</div>
-								</div>
-
-
-								<div class="col-md-8  wow fadeIn" data-wow-duration="1s" data-wow-delay=".6s">
-									<div class="product-view-content">
-									<div class="product-view-name">
-										<h1><?php echo $row['name'] ?></h1>
-									</div>
-									<div class="product-view-price">
-										<div class="pull-left">
-											<b>Giá bán: </b>
-											<?php if($row['price']==0): ?>
-												<span style="color:red;font-size:20px"><strong>Liên hệ!</strong></span>
-											<?php else : ?>
-												<span style="color:red;font-size:20px"><strong><?php echo(number_format($row['price'])); ?> vn₫</strong></span>
-											<?php endif; ?>
-										</div>
-									</div>
-									<div style="margin-top: 10px;">
-										<b>Tình trạng</b>
-										<br>
-										<span>Nguyên hộp. Đầy đủ từ nhà sản xuất, gồm: Sản phẩm, hướng dẫn sử dụng,...</span>
-									</div>
-									<div style="margin-top: 10px;">
-										<b>Đặt hàng gọi ngay: </b> <span style="color:red"><strong>032 742 7268</strong></span>
-									</div>
-									<div style="margin-top: 10px;" class="product-view-name">
-										<b>Thông tin sản phẩm:</b>
-										<br>
-										<p><?php echo $row['detail'] ?></p>
-									</div>
-
-								</div>
-								</div>
+							<div class="introtext">
+								<p><?php echo $row['introtext']; ?></p>
+							</div>
+							<div class="entry-content">
+								<p><?php echo $row['fulltext']; ?></p>
 							</div>
 						</div>
 					</div>
@@ -223,55 +165,36 @@
 <!-- End Contact Section -->
 
 <!-- Start Footer Section -->
-<footer class="footer">
-    <div class="container">
-        <div class="row align-items-center">
-            <!--Social-->
-            <div class="col-md-3 text-center">
-                <div class="footer-social">
-                    <h4 class="wow fadeInUp" data-wow-delay="0.2s">Địa chỉ</h4>
-					<p>761 Quang Trung<br> Thị trấn Chư Ty<br>Huyện Đức Cơ</p>
-                </div>
-                <!--Text-->
-
-            </div>
-
-			<div class="col-md-3 text-center">
-                <div class="footer-social">
-                    <h4 class="wow fadeInUp" data-wow-delay="0.2s">Liên hệ</h4>
-					<p>032 742 7268</p>
-                </div>
-                <!--Text-->
-
-            </div>
-
-			<div class="col-md-3 text-center">
-                <div class="footer-social">
-                    <h4 class="wow fadeInUp" data-wow-delay="0.2s">Thời gian phục vụ</h4>
-					<div>
-                                        <strong>Monday - Sunday</strong>
-                                        <p>9:00 AM - 5:00 PM</p>
-                                   </div>
-                </div>
-                <!--Text-->
-
-            </div>
-
-			<div class="col-md-3 text-center">
-                <div class="footer-social">
-				<ul class="list-unstyled social-icons social-icons-simple">
-                        <li><a class="social-icon wow fadeInUp" target="_blank" href="https://www.facebook.com/H%E1%BA%A1nh-Dung-%C4%90%E1%BA%A7u-M%E1%BB%91i-S%C3%A2m-Ng%E1%BB%8Dc-Linh-110390721092653/?ref=pages_you_manage&gidzl=CnnOKg8r1Gut1rjTfYi42J81Mrsx9GG1U0aDKBuZK0Kh30zJltO2KdbTL07gT09JVGbL066d76zbfJ040G"><i class="fab fa-facebook-f" aria-hidden="true"></i> </a> </li>
-                        <li><a class="social-icon wow fadeInDown" href="javascript:void(0)"><i class="fab fa-twitter" aria-hidden="true"></i> </a> </li>
-                        <li><a class="social-icon wow fadeInUp" href="javascript:void(0)"><i class="fab fa-google-plus-g" aria-hidden="true"></i> </a> </li>
-                        <li><a class="social-icon wow fadeInUp" href="javascript:void(0)"><i class="fab fa-instagram" aria-hidden="true"></i> </a> </li>
-                    </ul>
-                </div>
-                <!--Text-->
-
-            </div>
-        </div>
-    </div>
-</footer>
+<footer class="footer-sec text-center">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<div class="footer-social">
+						<ul class="list-unstyled">
+							<li><a class="wow fadeInUp" href="javascript:void(0);"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
+							<li><a class="wow fadeInUp" href="javascript:void(0);"><i class="fab fa-google-plus-g" aria-hidden="true"></i></a></li>
+							<li><a class="wow fadeInUp" href="javascript:void(0);"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+							<li><a class="wow fadeInDown" href="javascript:void(0);"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+				</div>
+				<div class=" col-lg-4 contact-details text-center text-lg-left wow slideInRight" data-wow-delay=".4s">
+					<span class="contact-sub-heading"><strong>Thông tin liên lạc</strong></span>
+					<ul class="contact-list">
+						<li><span>Mã số thuế: </span>5900451607</li>
+						<li><span>Số điện thoại: </span>0269790182</li>
+						<li><span>Người đại diện: </span> Vũ Ngọc Ân</li>
+						<li><span>Giấy phép kinh doanh: </span> 5900451607</li>
+						<li><span>Mon-Fri: </span> 9am to 6pm</li>
+					</ul>
+				</div>
+				<div class=" col-lg-4  contact-details text-center text-lg-left wow slideInRight" data-wow-delay=".4s">
+					<h4 class="contact-heading">Công ty THHH TRUNG QUÂN</h4>
+					<p class="contact-address">Thôn Hợp Thắng, Xã Ia Drăng, Huyện Chư Prông, Tỉnh Gia Lai</p>
+				</div>
+			</div>
+		</div>
+	</footer>
 <!-- End Footer Section -->
 
 <!-- JavaScript -->

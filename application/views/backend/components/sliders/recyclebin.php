@@ -41,7 +41,7 @@
 										<tr>
 											<td class="text-center"><?php echo $row['id'] ?></td>
 											<td style="width:100px">
-												<img src="public/images/banners/<?php echo $row['img'] ?>" alt="<?php echo $row['name'] ?>" class="img-responsive">
+												<img src="<?php echo base_url() ?>public/assets/images/<?php echo $row['img'] ?>" alt="<?php echo $row['name'] ?>" class="img-responsive">
 											</td>
 											<td><?php echo $row['name'] ?></td>
 											<td><?php echo $row['link'] ?></td>
@@ -50,7 +50,7 @@
 													<span class="glyphicon glyphicon-edit"></span>Khôi phục
 												</a>
 											</td>
-											<?php  
+											<?php
 												$quyen='';
 												if($user['role']==1){
 													$quyen.='

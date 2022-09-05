@@ -134,7 +134,7 @@
 							<?php foreach ($list as $sp) : ?>
 								<?php if ($sp['id'] % 2 == 0) : ?>
 									<div class="row standalone-row align-items-center no-gutters" style="margin-bottom:0;padding:0px 75px;height:450px">
-										<div class="col-lg-6" style="height:100%">
+										<div class="col-lg-6" style="height:80%">
 											<a href="<?php echo base_url() ?>ttsanpham/<?php echo $sp['id']; ?>">
 												<div class="blog-image wow hover-effect fadeInLeft image" style="height:100%">
 													<img style="border-radius:20px" src="<?php echo base_url() ?>/public/assets/images/<?php echo $sp['img']; ?>">
@@ -150,7 +150,7 @@
 									</div>
 								<?php else : ?>
 									<div class="row standalone-row align-items-center no-gutters" style="margin-bottom:0;padding:0px 75px;height:450px">
-										<div class="col-lg-6 order-lg-2" style="height:100%">
+										<div class="col-lg-6 order-lg-2" style="height:80%">
 											<a href="<?php echo base_url() ?>ttsanpham/<?php echo $sp['id']; ?>">
 												<div class="blog-image wow hover-effect fadeInRight text-center text-lg-right image" style="height:100%">
 													<img style="border-radius:20px" src="<?php echo base_url() ?>/public/assets/images/<?php echo $sp['img']; ?>">
@@ -179,41 +179,21 @@
 
 
 	<!--Footer Start-->
-	<footer class="footer-sec text-center" id="contact">
+	<footer class="footer-sec text-center">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4">
 					<div class="footer-social">
 						<ul class="list-unstyled">
 							<li><a class="wow fadeInUp" href="javascript:void(0);"><i class="fab fa-facebook-f" aria-hidden="true"></i></a></li>
-							<li><a class="wow fadeInDown" href="javascript:void(0);"><i class="fab fa-twitter" aria-hidden="true"></i></a></li>
 							<li><a class="wow fadeInUp" href="javascript:void(0);"><i class="fab fa-google-plus-g" aria-hidden="true"></i></a></li>
-							<li><a class="wow fadeInDown" href="javascript:void(0);"><i class="fab fa-linkedin-in" aria-hidden="true"></i></a></li>
 							<li><a class="wow fadeInUp" href="javascript:void(0);"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
 							<li><a class="wow fadeInDown" href="javascript:void(0);"><i class="fab fa-youtube" aria-hidden="true"></i></a></li>
 						</ul>
 					</div>
-					<p class="company-about fadeIn">© 2021 MegaOne. Made With Love By <a href="javascript:void(0);">Themesindustry</a></p>
-				</div>
-				<div class=" col-lg-4  contact-details text-center text-lg-left wow slideInRight" data-wow-delay=".4s">
-
-					<span class="contact-sub-heading">Thông tin liên lạc</span>
-					<h4 class="contact-heading">Công ty THHH TRUNG QUÂN</h4>
-					<p class="contact-address">Thôn Hợp Thắng, Xã Ia Drăng, Huyện Chư Prông, Tỉnh Gia Lai</p>
-					<ul class="contact-list">
-						<li><span>Mã số thuế: </span>5900451607</li>
-						<li><span>Số điện thoại: </span>0269790182</li>
-						<li><span>Người đại diện: </span> Vũ Ngọc Ân</li>
-						<li><span>Giấy phép kinh doanh: </span> 5900451607</li>
-						<li><span>Mon-Fri: </span> 9am to 6pm</li>
-					</ul>
-
 				</div>
 				<div class=" col-lg-4 contact-details text-center text-lg-left wow slideInRight" data-wow-delay=".4s">
-
-					<span class="contact-sub-heading">Thông tin liên lạc</span>
-					<h4 class="contact-heading">Công ty THHH TRUNG QUÂN</h4>
-					<p class="contact-address">Thôn Hợp Thắng, Xã Ia Drăng, Huyện Chư Prông, Tỉnh Gia Lai</p>
+					<span class="contact-sub-heading"><strong>Thông tin liên lạc</strong></span>
 					<ul class="contact-list">
 						<li><span>Mã số thuế: </span>5900451607</li>
 						<li><span>Số điện thoại: </span>0269790182</li>
@@ -221,7 +201,10 @@
 						<li><span>Giấy phép kinh doanh: </span> 5900451607</li>
 						<li><span>Mon-Fri: </span> 9am to 6pm</li>
 					</ul>
-
+				</div>
+				<div class=" col-lg-4  contact-details text-center text-lg-left wow slideInRight" data-wow-delay=".4s">
+					<h4 class="contact-heading">Công ty THHH TRUNG QUÂN</h4>
+					<p class="contact-address">Thôn Hợp Thắng, Xã Ia Drăng, Huyện Chư Prông, Tỉnh Gia Lai</p>
 				</div>
 			</div>
 		</div>

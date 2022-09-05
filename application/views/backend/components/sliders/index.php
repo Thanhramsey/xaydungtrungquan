@@ -1,6 +1,6 @@
 <div class="content-wrapper">
 	<section class="content-header">
-		<h1><i class="glyphicon glyphicon-picture"></i> Quản lý hình ảnh</h1>
+		<h1><i class="glyphicon glyphicon-picture"></i> Quản lý sản phẩm</h1>
 		<div class="breadcrumb">
 			<?php
 			if($user['role']==1){
@@ -36,7 +36,7 @@
 								<table class="table table-hover table-bordered">
 									<thead>
 										<tr>
-											<th class="text-center">ID</th>
+											<th class="text-center" style="display:none">ID</th>
 											<th>Hình</th>
 											<th>Tên ảnh</th>
 											<th>Liên kết</th>
@@ -47,11 +47,11 @@
 									<tbody>
 									<?php foreach ($list as $row):?>
 										<tr>
-											<td class="text-center"><?php echo $row['id'] ?></td>
+											<td class="text-center" style="display:none"><?php echo $row['id'] ?></td>
 											<td style="width:100px">
-												<img src="./public/assets/images/<?php echo $row['img'] ?>" class="img-responsive">
+												<img src="<?php echo base_url() ?>public/assets/images/<?php echo $row['img'] ?>" class="img-responsive">
 											</td>
-											<td><a href="<?php echo base_url() ?>admin/sliders/update/<?php echo $row['id'] ?>"><?php echo $row['name'] ?></a>
+											<td style="width:200px"><a href="<?php echo base_url() ?>admin/sliders/update/<?php echo $row['id'] ?>"><?php echo $row['name'] ?></a>
 											</td>
 											<td> <?php echo $row['link'] ?></td>
 											<td class="text-center">
